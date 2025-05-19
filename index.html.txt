@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Гороскоп</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔮 Гороскоп на сегодня</h1>
+        <p>Введите свой знак зодиака:</p>
+        <input type="text" id="zodiacInput" placeholder="Например: Овен">
+        <button onclick="getHoroscope()">Показать гороскоп</button>
+        <div id="horoscopeResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
